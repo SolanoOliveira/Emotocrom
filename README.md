@@ -14,7 +14,7 @@ Para executar este projeto localmente em sua máquina, siga estes passos:
 
 1. Clone o repositório para a sua máquina local:
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone <https://github.com/SolanoOliveira/Emotocrom>
     ```
 2. Navegue até o diretório do projeto e instale as dependências:
     ```bash
