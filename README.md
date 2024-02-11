@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Analisador de Sentimentos com Emojis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi inicializado com o [Create React App](https://github.com/facebook/create-react-app) e utiliza a [API de Sentimentos da API Ninjas](https://api-ninjas.com/api/sentiment) para analisar frases em inglês e retornar um emoji correspondente ao sentimento expresso. É uma maneira envolvente de visualizar o sentimento de textos através de emojis.
 
-## Available Scripts
+## Começando
 
-In the project directory, you can run:
+Para executar este projeto localmente em sua máquina, siga estes passos:
 
-### `npm start`
+### Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Você precisa ter o [Node.js](https://nodejs.org/en/download/) instalado em seu sistema.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalação
 
-### `npm test`
+1. Clone o repositório para a sua máquina local:
+    ```bash
+    git clone <URL_DO_REPOSITORIO>
+    ```
+2. Navegue até o diretório do projeto e instale as dependências:
+    ```bash
+    npm install
+    ```
+3. Crie um arquivo `.env` na raiz do projeto e adicione sua chave da API de Sentimentos da API Ninjas:
+    ```env
+    REACT_APP_API_KEY=sua_chave_aqui
+    ```
+    Substitua `sua_chave_aqui` pela sua chave de API real obtida de [API Ninjas](https://api-ninjas.com/api/sentiment).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Executando o Projeto
 
-### `npm run build`
+No diretório do projeto, você pode executar vários comandos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Executa o aplicativo no modo de desenvolvimento. Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no seu navegador. A página será recarregada se você fizer edições.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usando o Analisador de Sentimentos
 
-### `npm run eject`
+Basta inserir uma frase em inglês no campo de entrada e submetê-la. O aplicativo, então, exibirá um emoji correspondente ao sentimento da frase analisada.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribuindo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do repositório, fazer alterações e enviar pull requests.
